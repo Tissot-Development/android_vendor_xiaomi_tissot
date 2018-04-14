@@ -516,6 +516,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/etc/morpho_lowlight4.0.xml:system/etc/morpho_lowlight4.0.xml \
     vendor/xiaomi/tissot/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
+    vendor/xiaomi/tissot/proprietary/lib/libmisk.so:system/lib/libmisk.so \
     vendor/xiaomi/tissot/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
     vendor/xiaomi/tissot/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/xiaomi/tissot/proprietary/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
