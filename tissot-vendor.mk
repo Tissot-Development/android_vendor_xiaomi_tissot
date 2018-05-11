@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/tissot/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/tissot/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/xiaomi/tissot/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/xiaomi/tissot/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/tissot/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/tissot/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
@@ -520,7 +521,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/etc/morpho_lowlight4.0.xml:system/etc/morpho_lowlight4.0.xml \
     vendor/xiaomi/tissot/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
-    vendor/xiaomi/tissot/proprietary/lib/libmisk.so:system/lib/libmisk.so \
     vendor/xiaomi/tissot/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
     vendor/xiaomi/tissot/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/xiaomi/tissot/proprietary/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
@@ -552,8 +552,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
-    vendor/xiaomi/tissot/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
-    vendor/xiaomi/tissot/proprietary/vendor/lib/libRecoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRecoFace.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib/libactuator_dw9763_ofilm_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_ofilm_ov12a10.so \
