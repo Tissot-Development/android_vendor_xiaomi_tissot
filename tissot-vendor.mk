@@ -508,17 +508,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/tissot/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
-    vendor/xiaomi/tissot/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov12a10_arc_chromatix.xml:system/etc/camera/ov12a10_arc_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov12a10_arc_ofilm_chromatix.xml:system/etc/camera/ov12a10_arc_ofilm_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov12a10_chromatix.xml:system/etc/camera/ov12a10_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov13880_arc_chromatix.xml:system/etc/camera/ov13880_arc_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov13880_arc_ofilm_chromatix.xml:system/etc/camera/ov13880_arc_ofilm_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov13880_chromatix.xml:system/etc/camera/ov13880_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/ov5675_qtech_chromatix.xml:system/etc/camera/ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov12a10_arc_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_arc_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov12a10_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_arc_ofilm_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_arc_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_arc_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_arc_ofilm_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_qtech_chromatix.xml \
+    vendor/xiaomi/tissot/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/etc/morpho_lowlight4.0.xml:system/etc/morpho_lowlight4.0.xml \
     vendor/xiaomi/tissot/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
     vendor/xiaomi/tissot/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
