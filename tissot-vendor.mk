@@ -928,4 +928,5 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CNEService \
     qcrilmsgtunnel \
+    libantradio \
     TimeService
