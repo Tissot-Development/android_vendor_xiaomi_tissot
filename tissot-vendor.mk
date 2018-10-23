@@ -923,6 +923,5 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     ims \
     QtiTelephonyService \
-    CNEService \
     qcrilmsgtunnel \
     TimeService
